@@ -8,7 +8,7 @@ import { DropdownMenu } from '@radix-ui/react-dropdown-menu'
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className='sticky top-0'>
       <nav className='flex justify-between  text-secondary bg-foreground pt-2'>
         <div>
           <Logo />
