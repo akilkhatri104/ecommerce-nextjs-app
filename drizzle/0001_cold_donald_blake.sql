@@ -1,0 +1,1 @@
+ALTER TABLE "ecommerce_nextjs_app_users" ADD COLUMN "refresh_token" text;
